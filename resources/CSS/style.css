@@ -2,6 +2,9 @@ html{
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
 }
+.card{
+  
+}
 /*Navbar*/
 nav ul{
   justify-content: space-around;
@@ -20,7 +23,7 @@ nav ul{
   color: #399bd1 !important;
 }
 nav ul:first-child{
-  color: #399bd1
+  color: #399bd1;
 }
 @media only screen and (max-width: 599px){
   .navbar-nav{
@@ -54,7 +57,37 @@ nav ul:first-child{
   background-size: cover;
 }
 /*Featured*/
-.test h1{
+.featured-title{
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.card-body{
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
+}
+#product-col{
+  color: #399bd1;
+}
+/*Projects*/
+.projects{
+  margin-bottom: 5.85rem;
+}
+/*Footer*/
+footer .card{
+  margin-top: 5.2rem;
+  margin-bottom: 5.2rem;
+}
+footer, h5, p{
+  margin-bottom: 1.4rem;
+  margin-top: 1.4rem;
+}
+footer h5{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.test{
+  background-color: #f3f3f3;
 }
