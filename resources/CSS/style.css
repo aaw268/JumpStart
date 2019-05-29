@@ -1,93 +1,86 @@
-html{
-  font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
 }
-.card{
-  
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
 }
-/*Navbar*/
-nav ul{
-  justify-content: space-around;
-  font-weight: bold;
-  font-size: 1.1rem;
-}
-.navbar-nav{
-  display: flex;
-  flex-direction: row;
-}
-.nav-text{
-  padding-left: 12px;
-  padding-right: 12px;
-}
-.nav-link:hover{
-  color: #399bd1 !important;
-}
-nav ul:first-child{
-  color: #399bd1;
-}
-@media only screen and (max-width: 599px){
-  .navbar-nav{
-    display: flex;
-    flex-direction: column;
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .navbar-brand{
+    display: none;
   }
 }
-/*Caresoul*/
-.carousel-caption h2{
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-brand{
+    display: none;
+  }
+}
+html{
+  font-size: 14px;
+  max-width: 100%;
+  font-family: 'Open Sans', 'ariel';
+}
+/*Carousel*/
+.jumbotron-bike{
+  background-image: url("../images/jumbotron-bike.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 11.85rem;
+  padding-bottom: 11.85rem;
+}
+.jumbotron-beer{
+  background-image: url("../images/jumbotron-beer.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 11.85rem;
+  padding-bottom: 11.85rem;
+}
+.jumbotron-duffel{
+  background-image: url("../images/jumbotron-duffel.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 11.85rem;
+  padding-bottom: 11.85rem;
+}
+.jumbotron-flowers{
+  background-image: url("../images/jumbotron-flowers.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 11.85rem;
+  padding-bottom: 11.85rem;
+}
+.jumbotron h1{
   font-family: 'Monoton';
   font-size: 7.1rem;
-  color: white;
 }
-.carousel-caption p{
-  font-family: 'Open Sans';
-  width: 51.3rem;
+.jumbotron p{
   text-shadow:
   -1px -1px 0 #000,
   -1px -1px 0 #000,
   -1px -1px 0 #000,
   -1px -1px 0 #000;
-}
-.carousel-caption button{
-  margin-top: 1rem;
-}
-.carousel-caption{
-  margin-top: 11.85rem;
-  margin-bottom: 9.85rem;
-}
-.carousel-inner{
-  background-size: cover;
-}
-/*Featured*/
-.featured-title{
-  font-size: 1.7rem;
-  font-weight: bold;
-  color: #399bd1;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.card-body{
-  line-height: 1.4;
-  color: rgba(0, 0, 0, 0.7);
-}
-#product-col{
-  color: #399bd1;
-}
-/*Projects*/
-.projects{
-  margin-bottom: 5.85rem;
-}
-/*Footer*/
-footer .card{
-  margin-top: 5.2rem;
-  margin-bottom: 5.2rem;
-}
-footer, h5, p{
-  margin-bottom: 1.4rem;
-  margin-top: 1.4rem;
-}
-footer h5{
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-.test{
-  background-color: #f3f3f3;
 }
