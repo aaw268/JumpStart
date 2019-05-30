@@ -3,11 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"">
-    <link rel="stylesheet" href="resources/CSS/reset.css" text="text/css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="resources/CSS/style.css" text="text/css">
+    <!--Fonts and favicon-->
     <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.png" type="image/x-icon">
+    <!--Reset sheet-->
+    <link rel="stylesheet" href="resources/CSS/reset.css" text="text/css">
+    <!--Bootstrap cdn-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Slick-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!--Javascript and style sheet-->
+    <link rel="stylesheet" href="resources/CSS/style.css" text="text/css">
+
     <title>JumpStart</title>
   </head>
   <body class="col-12">
@@ -28,51 +35,46 @@
         </div>
       <a class="navbar-brand" href="#"><img src="resources/images/logo.png" alt="logo" class="navbar-brand navbar-right navbar-collapse"></a>
     </nav>
-<!--Carousel/jumbotron-->
-  <div id="carsouleFin" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="jumbotron jumbotron-bike carousel-item active">
-        <h1 class="display-4">Get Going</h1>
-        <p class="lead">Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Jump In</a>
-      </div>
-
-      <div class="jumbotron jumbotron-beer carousel-item ">
-        <h1 class="display-4">Get Thinking</h1>
-        <p class="lead">Meet like-minded individuals who will help fuel your creative juices.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Jump In</a>
-      </div>
-
-      <div class="jumbotron jumbotron-duffel carousel-item ">
-        <h1 class="display-4">Get Started</h1>
-        <p class="lead">What are you waiting for? Today'sthe day for your next big idea.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Jump In</a>
-      </div>
-
-      <div class="jumbotron jumbotron-flowers carousel-item ">
-        <h1 class="display-4">Get Creating</h1>
-        <p class="lead">Stop overthinking and begin putting them into the world</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Jump In</a>
-      </div>
-      </div>
-  </div>
+  <!--Slick carousel-->
+  <div class="carousel">
+    <div class="jumbotron jumbotron-bike">
+      <h1 class="display-4">Get Going</h1>
+      <p class="lead">Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Jump In</a>
+    </div>
+    <div class="jumbotron jumbotron-beer">
+      <h1 class="display-4">Get Thinking</h1>
+      <p class="lead">Meet like-minded individuals who will help fuel your creative juices.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Jump In</a>
+    </div>
+    <div class="jumbotron jumbotron-duffel">
+      <h1 class="display-4">Get Started</h1>
+      <p class="lead">What are you waiting for? Today'sthe day for your next big idea.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Jump In</a>
+    </div>
+    <div class="jumbotron jumbotron-flowers">
+      <h1 class="display-4">Get Creating</h1>
+      <p class="lead">Stop overthinking and begin putting them into the world</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Jump In</a>
+    </div>
+    </div>
   <!--Featured Section-->
   <section id="featured-sec">
     <div class="row-12">
       <h1 id="featured-title">Featured Project</h1>
     </div>
     <div class="featured row">
-      <div class="col-md-6 col-xs-12">
-        <div class="image-container img-fluid featured">
+      <div class="col-md-6 col-sm-12 justify-content-center">
+        <div class="img-fluid featured image-container">
           <img src="resources/images/featured-project.png" alt="">
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 one-sec col-xs-6">
+      <div class="col-md-3 col-sm-6 one-sec">
         <h2>DeFrost: A Documentary</h2>
         <span>by Leo De Firenze</span>
         <span>DeFrost is a documentary about growing up in a little red house in a cold, harsh valley. This is a story about my mother's childhood. This film attempts to capture vignettes of her upbringing â€” her family, friends, pets, and eventual depature from a freezing valley in Northern Italy â€” through beautiful cinematography and narration.</span>
       </div>
-      <div class="test col-md-3 col-sm-6 col-xs-6">
+      <div class="test col-md-3 col-sm-6">
         <h2>Product Categories</h2>
         <div class="list">
           <span>Art</span>
@@ -103,7 +105,9 @@
     <div class="row">
       <div class="col-md-4">
         <div class="card">
+          <div class="image-container">
             <img src="resources/images/project1.png" class="card-img-top" alt="...">
+          </div>
             <div class="card-body">
               <h5 class="card-title">The Right Tights</h5>
               <p class="card-text">by Riley Mae</p>
@@ -113,7 +117,9 @@
       </div>
       <div class="col-md-4">
         <div class="card">
+          <div class="image-container">
             <img src="resources/images/project2.png" class="card-img-top" alt="...">
+          </div>
             <div class="card-body">
               <h5 class="card-title">Peppermint Smart Home</h5>
               <p class="card-text">by Brian McDonald</p>
@@ -123,7 +129,9 @@
       </div>
       <div class="col-md-4">
         <div class="card">
-            <img src="resources/images/project3.png" class="card-img-top" alt="...">
+          <div class="image-container">
+            <img src="resources/images/project3.png" class="card-img-top image-container" alt="...">
+          </div>
             <div class="card-body">
               <h5 class="card-title">American Streetlife</h5>
               <p class="card-text">by Patrick Wallace</p>
@@ -147,5 +155,9 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+<!--Slick-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!--JS Reference-->
+<script type="text/javascript" src="resources/js/main.js"></script>
+</body>
 </html>
